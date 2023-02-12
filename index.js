@@ -45,7 +45,7 @@ const config = {
     }]
   }
 };
-const myChart = new Chart(document.getElementById('doughnutChart'), configSales);
+const myChart = new Chart(document.getElementById('doughnutChart'), config);
 
 // Bar Chart
 const brandsData = [0.56, 0.48, 0.37, 0.22];
