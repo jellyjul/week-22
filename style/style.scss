@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #35dad2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h3 {
+    svg {
+        width: 20em;
+    }
+}
+.current-date {
+    color: white;
+}
+.charts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.chart {
+    background-color: #cdcbe2;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.chart_sales {
+    width: 15%;
+    text-align: center;
+}
+
+.chart_brands {
+    width: 35%;
+}
+
+.chart_sizes {
+    width: 35%;
+}
